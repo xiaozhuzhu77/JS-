@@ -11,7 +11,7 @@
             function F(){
                 var a=12;  //局部变量：只能定义在函数以内
                 function H(){
-                    alert(a);
+                    alert(a);//子函数使用父函数的局部变量=闭包
             }
             H();
             }

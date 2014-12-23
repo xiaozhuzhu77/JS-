@@ -2,4 +2,13 @@ innerHTML:
 this:  
 DOM  :Document Object Model 
 变量作用域：起作用的范围
-
+命名规范：
+类型        前缀    类型       实例
+数组         a     Array      aItems
+布尔值       b     Boolean    bIsCompete
+浮点数       f     Float      fPrice
+函数         fn    Function   fnHandler
+整数         i     Integer    iItemCount
+对象         o     Object     oDiv1
+正则表达式   re    RegExp     reEmailCheck
+字符串       v     Variant    vAnvthing
