@@ -1,0 +1,5 @@
+innerHTML:
+this:  
+DOM  :Document Object Model 
+变量作用域：起作用的范围
+

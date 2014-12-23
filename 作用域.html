@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <script>
+            var a=12;   //全局变量：在任何地方都能用
+            function F(){
+                var a=12;  //局部变量：只能定义在函数以内
+            }
+            function H(){
+                alert(a);
+            }
+            F();
+            H();
+        </script>
+    </head>
+<body>
+</body>
+</html>
+
+
