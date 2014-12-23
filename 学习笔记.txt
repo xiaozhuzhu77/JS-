@@ -12,3 +12,8 @@ DOM  :Document Object Model
 对象         o     Object     oDiv1
 正则表达式   re    RegExp     reEmailCheck
 字符串       v     Variant    vAnvthing
+
+
+break:打破，中断
+continue:继续
+
