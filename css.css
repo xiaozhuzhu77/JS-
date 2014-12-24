@@ -1,0 +1,54 @@
+@charset "utf-8";
+html, body, div, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+.content {
+    width: 880px;
+    height: 108px;
+    margin: 50px auto;
+    position: relative;
+}
+#div1 {
+    width: 712px; 
+    height: 108px;
+    margin: 100px auto;
+    position:relative;
+    background:red;
+    overflow:hidden;
+}
+#div1 ul {
+    position:absolute;
+    left:0;
+    top:0;
+}
+li {
+    float:left;
+    width:178px; 
+    height:108px;
+    list-style:none;
+}
+a {
+    display: block;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 20px;
+    z-index: 1;
+    background:url(img2/btn.jpg) no-repeat ;
+}
+a:first-child {
+    left: 1px;
+    background-position: -70px -70px;
+}
+a:nth-child(2) {
+    right: 0;
+    background-position: 0 -70px;
+}
+a:first-child:hover {
+    background-position: -70px 0;
+}
+a:nth-child(2):hover {
+    background-position: 0  0;
+}
+
