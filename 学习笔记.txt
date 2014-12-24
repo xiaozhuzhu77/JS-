@@ -16,4 +16,13 @@ DOM  :Document Object Model
 
 break:打破，中断
 continue:继续
+真的：true、非零数字、非空字符串、非空document(对象)
+假的：false、数字零、空字符串、空对象、undefined
 
+
+Json
+
+定时器作用：
+  开启定时器：setInterval  间隔型
+              setTimeout   延时型
+  
