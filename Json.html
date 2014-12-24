@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <script>
+        window.onload = function () {
+            var list = document.getElementById('list1');
+            var li = list.getElementsByTagName('li');
+            for (var i = 0; i < li.length; i++) {
+                li[i].onclick = function (num) {
+                    return function () {
+                        alert(num);
+                    }
+                }(i);
+            }
+            var arr;
+        }
+        (function () {
+            //xxxxxxxxx
+        }());
+        </script>
+    </head>
+<body>
+<ul id="list1">
+    <li>aaaa</li>
+    <li>aaaa</li>
+    <li>aaaa</li>
+    <li>aaaa</li>
+    <li>aaaa</li>
+    <li>aaaa</li>
+    <li>aaaa</li>
+    <li>aaaa</li>
+    <li>aaaa</li>
+    <li>aaaa</li>
+</ul>
+</body>
+</html>
+
