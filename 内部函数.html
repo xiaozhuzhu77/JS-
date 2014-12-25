@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <script>
+        //内部（私有）函数：在一个函数内定义另一个函数
+        function A(a){
+            function B(b) {
+                return b*2;
+            }
+            return 'The Result Is'+B(a);
+        }
+        alert(A(4));
+        /*
+         上述代码还可以用函数标记法表示：
+         
+         var w = function A(a){
+            var m = function B(b){
+                return b*2;
+                }
+                return 'The result is '+ B(a);
+              }
+         */
+    
+        </script>
+    </head>
+<body>
+</body>
+</html>
+
+
