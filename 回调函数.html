@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <script>
+        function A(a, b, c) {
+           var i, sr = [];
+           for(i = 0; i<3; i++){
+               sr[i] = arguments[i]*2;
+           }
+           return sr;
+        }
+        function add(a) {
+            return a+1;
+        }
+        var myarr = [];
+        myarr = A(10, 20, 30); 
+        for(var i=0; i<3; i++) {
+            myarr[i]=add(myarr[i]);
+        }
+        alert(myarr);
+        </script>
+    </head>
+<body>
+</body>
+</html>
+
+
