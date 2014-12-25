@@ -26,3 +26,7 @@ Json
   开启定时器：setInterval  间隔型
               setTimeout   延时型
   
+
+Dom
+childNodes: 子节点
+
